@@ -1,15 +1,20 @@
 # Simple Sprite Animator
-Simpler 2D sprite animation in Unity.
 
-##### This is an early work in progress. Please report any issues you find. Also, feel free to contribute fixes or additions.
+Simpler 2D sprite animation in Unity.
 
 ## Why Should I Use Simple Sprite Animator?
 
 Sprite animation in Unity is very powerful, but often too complicated when trying to make simple 2D sprite animations. You have to create animations, set up animator states, add transitions, and much more. This project aims to make sprite animation much simpler.
 
-## Installation
+# Installation
 
-Copy the `SimpleSpriteAnimator` folder into your `Assets` folder.
+## In the form of a unity module
+
+Installation as a unity module via a git link in the PackageManager or direct editing of `Packages/manifest.json` is supported:
+
+```
+"com.portaldweller.simplespriteanimator.unity" : "https://github.com/PortalDweller/SimpleSpriteAnimator.git",
+```
 
 ## Usage
 
