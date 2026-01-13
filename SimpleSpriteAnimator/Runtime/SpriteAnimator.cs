@@ -7,7 +7,7 @@ namespace SimpleSpriteAnimator
     public class SpriteAnimator : MonoBehaviour
     {
         [SerializeField]
-        public List<SpriteAnimation> spriteAnimations;
+        public List<SpriteAnimation> spriteAnimations = new List<SpriteAnimation>();
 
         [SerializeField]
         private bool playAutomatically = true;
